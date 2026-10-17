@@ -27,7 +27,7 @@ public class ScannerInput {
         System.out.println("Taking Input from user :- ");
         String str = sc.next(); // only reads first word of a line
         System.out.println(str);
-        
+
         String str2 = sc.nextLine(); // Reads entire line
         System.out.println(str2);
 
