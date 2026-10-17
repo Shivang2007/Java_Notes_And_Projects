@@ -5,3 +5,7 @@ public class Main {
         System.out.println("Hello World");
     }
 }
+
+
+//AddTwoNumber -->pascal naming convention
+//ddTwoNumber --> camel case naming convention
