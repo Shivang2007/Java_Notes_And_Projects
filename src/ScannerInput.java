@@ -24,10 +24,16 @@ public class ScannerInput {
         boolean bool = sc.hasNextInt();
         System.out.println(bool);
 
+        System.out.println("Taking Input from user :- ");
         String str = sc.next(); // only reads first word of a line
         System.out.println(str);
-
+        
         String str2 = sc.nextLine(); // Reads entire line
         System.out.println(str2);
+
+
+        System.out.println("What is your name");
+        String name = sc.next();
+        System.out.println("Hello " + name + " have a good day!");
     }
 }
